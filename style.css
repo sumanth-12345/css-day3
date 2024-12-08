@@ -47,20 +47,22 @@ img{
     height: 100%;
     width: 100%;
 }
-.nav1, .nav2, .nav3{
-    margin-left: 50px;
-    font-size: 30px;
+a{
+    text-decoration: none;
     color: black;
+}
+nav{
     display: inline-block;
+   
+    font-size: 30px;
+}
+.nav1{
+   margin-left: 300px;
 }
 .nav2{
-    margin-left: 350px;
-    font-size: 40px;
-   
+   margin-left: 600px;
 }
-.nav3{
-    margin-left: 900px;
-    font-size:40px; ;
-   
+header{
+    position: sticky;
+    top: 0px;
 }
-  
